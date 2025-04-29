@@ -1,4 +1,4 @@
-import Card_Course from "../components/card_course";
+import Card_Course from "../components/Card_Course";
 import { programs } from "../constant";
 function Course() {
   return (
