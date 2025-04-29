@@ -1,5 +1,5 @@
 import About from "./layouts/About";
-import Course from "./layouts/course";
+import Course from "./layouts/Course";
 import Hero from "./layouts/Hero";
 
 function App() {
