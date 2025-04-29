@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  width: 100dvw;
+  font-size: larger;
+  background-color: #d3d3d3;
+}
+
+.padding-def {
+  @apply 2xl:px-[600px] px-[100px];
+}
