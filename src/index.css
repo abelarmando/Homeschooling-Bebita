@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --animate-infinte-scroll: infinite-scroll 10s linear infinite;
+
+  @keyframes infinite-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-50% - 20px));
+    }
+  }
+}
+
 body {
   width: 100dvw;
   font-size: larger;
@@ -7,5 +20,5 @@ body {
 }
 
 .padding-def {
-  @apply 2xl:px-[600px] px-[100px];
+  @apply 2xl:px-[600px] px-[50px];
 }
