@@ -12,7 +12,7 @@ function Class() {
         <br />
         Bebita Homeschooling?
       </h1>
-      <div className="flex flex-wrap gap-16 justify-center">
+      <div className="grid-cols-1 md:grid-cols-2 grid gap-16 justify-center">
         {jenis_kelas.map((x) => (
           <Card_Class title={x.judul} text={x.deskripsi} img={x.img} />
         ))}
