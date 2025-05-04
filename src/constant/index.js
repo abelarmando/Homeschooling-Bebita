@@ -1,27 +1,68 @@
 export const programs = [
   {
-    name: "Hybrid Class",
-    description:
-      "Kombinasi belajar tatap muka dan online dengan teknologi E-Learning.",
+    judul: "Ramah Anak Termasuk ABK",
+    deskripsi:
+      "Kami menjamin lingkungan belajar yang ramah anak dan dukungan penuh untuk (ABK) anak berkebutuhan khusus.",
+    img: "./images/ORANG_1.png",
   },
   {
-    name: "Online Class",
-    description:
-      "Belajar fleksibel dari mana saja lewat aplikasi meeting online dan ruang kelas virtual.",
+    judul: "Pembelajaran Berbasis Kebutuhan Psikologis Anak",
+    deskripsi:
+      "Pembelajaran sesuai kebutuhan psikologis dan emosional Anak, sebagai tahapan awal proses pembelajaran.",
+    img: "./images/ORANG_2.png",
   },
   {
-    name: "Regular Class",
-    description:
-      "Jadwal belajar terstruktur di kelas fisik dengan metode pembelajaran langsung.",
+    judul: "Pengembangan Karakter dan ketahanan Mental",
+    deskripsi:
+      "Pembentukan karakter dan mental anak dengan kasih sayang dan dukungan emosional.",
+    img: "./images/ORANG_3.png",
   },
   {
-    name: "Private Class",
-    description:
-      "Pembelajaran personal satu-satu, disesuaikan dengan kebutuhan siswa.",
+    judul: "Pembelajaran Kontekstual Dan Eksploratif",
+    deskripsi:
+      "Pembelajaran Konseptual melalui aktivitas praktis dan eksplorasi kreatif.",
+    img: "./images/ORANG_4.png",
+  },
+];
+
+export const jenis_kelas = [
+  {
+    judul: "Hybrid & Online Class",
+    deskripsi:
+      "Kombinasi Pembelajaran Tatap Muka (Offline) Dan Daring (Online) Dengan Didukung Aplikasi Portal Sekolah.",
+    img: "./dev.jpg",
   },
   {
-    name: "Working Class",
-    description:
-      "Khusus untuk pelajar usia 21 tahun ke atas yang memiliki kesibukan bekerja.",
+    judul: "Reguler Class",
+    deskripsi:
+      "Pembelajaran sepenuhnya tatap muka di Ruang Kelas Homeschooling Bebita dan Memiliki Jadwal tetap.",
+    img: "./dev.jpg",
+  },
+  {
+    judul: "Private Class",
+    deskripsi:
+      "Pembelajaran Personel antara Guru dan Murid, dapat dilakukan secara offline maupun online, dengan Jadwal yang fleksibel.",
+    img: "./dev.jpg",
+  },
+  {
+    judul: "Working Class",
+    deskripsi:
+      "Pembelajaran yang di khususkan pada peserta didik yang telah mencapai usia 21 tahun dan memiliki kesibukan bekerja.",
+    img: "./dev.jpg",
+  },
+];
+
+export const students = [
+  {
+    deskripsi: "Siswa Lulus (SD, SMP, dan SMA)",
+    jumlah: 3000,
+  },
+  {
+    deskripsi: "Alumni Sukses dalam Karier",
+    jumlah: 3000,
+  },
+  {
+    deskripsi: "Lanut ke PTS & Luar Negeri",
+    jumlah: 3000,
   },
 ];

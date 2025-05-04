@@ -2,11 +2,11 @@ import React from "react";
 
 function Background_img() {
   return (
-    <div className="absolute w-full h-full z-0">
+    <>
       <img
         src="./images/icons/Jangka.png"
         alt="jangka"
-        className="opacity-20 scale-x-[-1] absolute right-1/2 translate-x-50 "
+        className="opacity-20 scale-x-[-1] absolute right-1/2 translate-x-50 top-0"
       />
       <img
         src="./images/icons/Toga.png"
@@ -33,7 +33,7 @@ function Background_img() {
         alt=""
         className="scale-x-[-1] opacity-20 absolute right-20 -bottom-15 "
       />
-    </div>
+    </>
   );
 }
 

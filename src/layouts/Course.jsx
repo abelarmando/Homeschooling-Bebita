@@ -6,7 +6,7 @@ function Course() {
       <h1 className="text-center font-bold text-2xl">
         What are the Class Program at Bebita Homeschooling?
       </h1>
-      <div className="flex gap-4 flex-wrap justify-center">
+      <div className="flex gap-16 flex-wrap justify-center">
         {programs.map((x) => (
           <Card_Course title={x.name} text={x.description} />
         ))}

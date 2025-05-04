@@ -1,24 +1,30 @@
 @import "tailwindcss";
 
 @theme {
-  --animate-infinte-scroll: infinite-scroll 10s linear infinite;
+  --color-bg-secondary: #c8c4c4;
+
+  --animate-infinte-scroll: infinite-scroll 25s linear infinite;
 
   @keyframes infinite-scroll {
-    from {
+    0% {
       transform: translateX(0);
     }
-    to {
-      transform: translateX(calc(-50% - 20px));
+    100% {
+      transform: translateX(calc(-85% - 20px));
     }
   }
 }
 
 body {
-  width: 100dvw;
+  width: 100%;
   font-size: larger;
   background-color: #d3d3d3;
 }
 
 .padding-def {
   @apply 2xl:px-[600px] px-[50px];
+}
+
+.padding-def-y {
+  @apply 2xl:py-[100px] py-[50px];
 }
