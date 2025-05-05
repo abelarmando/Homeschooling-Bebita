@@ -31,7 +31,7 @@ function Background_img() {
       <img
         src="./images/icons/Kalkulator.png"
         alt=""
-        className="scale-x-[-1] opacity-20 absolute right-20 -bottom-15 "
+        className="scale-x-[-1] opacity-20 absolute md:right-20 -bottom-15  -right-10"
       />
     </>
   );

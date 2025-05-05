@@ -12,7 +12,7 @@ export const programs = [
     img: "./images/ORANG_2.png",
   },
   {
-    judul: "Pengembangan Karakter dan ketahanan Mental",
+    judul: "Pengembangan Karakter  dan ketahanan Mental",
     deskripsi:
       "Pembentukan karakter dan mental anak dengan kasih sayang dan dukungan emosional.",
     img: "./images/ORANG_3.png",
@@ -30,25 +30,25 @@ export const jenis_kelas = [
     judul: "Hybrid & Online Class",
     deskripsi:
       "Kombinasi Pembelajaran Tatap Muka (Offline) Dan Daring (Online) Dengan Didukung Aplikasi Portal Sekolah.",
-    img: "./dev.jpg",
+    img: "./images/GAMBAR_OKE_1.png",
   },
   {
     judul: "Reguler Class",
     deskripsi:
       "Pembelajaran sepenuhnya tatap muka di Ruang Kelas Homeschooling Bebita dan Memiliki Jadwal tetap.",
-    img: "./dev.jpg",
+    img: "./images/GAMBAR_OKE_2.png",
   },
   {
     judul: "Private Class",
     deskripsi:
       "Pembelajaran Personel antara Guru dan Murid, dapat dilakukan secara offline maupun online, dengan Jadwal yang fleksibel.",
-    img: "./dev.jpg",
+    img: "./images/GAMBAR_OKE_1.png",
   },
   {
     judul: "Working Class",
     deskripsi:
       "Pembelajaran yang di khususkan pada peserta didik yang telah mencapai usia 21 tahun dan memiliki kesibukan bekerja.",
-    img: "./dev.jpg",
+    img: "./images/GAMBAR_OKE_1.png",
   },
 ];
 

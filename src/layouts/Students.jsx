@@ -5,6 +5,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { students } from "../constant";
+import Background_img from "../components/Background_img";
 
 gsap.registerPlugin(ScrollTrigger);
 function Students() {
@@ -16,17 +17,17 @@ function Students() {
       end: "bottom top",
 
       onEnter: () => setStartCountUp(true),
-      onLeave: () => setStartCountUp(false),
-      onEnterBack: () => setStartCountUp(true),
+
       onLeaveBack: () => setStartCountUp(false),
     });
   });
 
   return (
     <div
-      className="padding-def padding-def-y space-y-16 h-fit w-full relative overflow-hidden"
+      className="padding-def padding-def-y space-y-16 h-fit w-full relative overflow-hidden "
       id="students"
     >
+      <Background_img />
       <h1 className="text-4xl font-bold text-center ">
         <span className="text-blue-500">Kontribusi Kami dalam</span>
         <br /> Pendidikan Indonesia

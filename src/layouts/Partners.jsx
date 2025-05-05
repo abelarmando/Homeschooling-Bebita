@@ -8,11 +8,11 @@ const partners = [
   },
   {
     id: 2,
-    img: "./images/UIN.JPG",
+    img: "./images/UIN.png",
   },
   {
     id: 3,
-    img: "./images/PORTAL_SEKOLAH.JPG",
+    img: "./images/PORTAL_SEKOLAH.png",
   },
 ];
 
