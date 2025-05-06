@@ -7,7 +7,10 @@ function Card_Class({ title, text, img }) {
       <div className="space-y-3">
         <h1 className="font-bold">{title}</h1>
         <p>{text}</p>
-        <button className="border-2 rounded-lg p-2 hover:shadow-2xl hover:bg-bg-secondary ">
+        <button
+          className="border-2 rounded-lg p-2 hover:shadow-2xl hover:bg-bg-secondary "
+          onClick={() => (window.location.href = "https://wa.me/6285775262667")}
+        >
           Selengkapnya
         </button>
       </div>

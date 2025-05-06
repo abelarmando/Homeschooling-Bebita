@@ -17,7 +17,8 @@ function Students() {
       end: "bottom top",
 
       onEnter: () => setStartCountUp(true),
-
+      onLeave: () => setStartCountUp(false),
+      onEnterBack: () => setStartCountUp(true),
       onLeaveBack: () => setStartCountUp(false),
     });
   });

@@ -5,7 +5,10 @@ import Background_img from "../components/Background_img";
 
 function Class() {
   return (
-    <div className="padding-def padding-def-y space-y-16 h-fit w-full relative overflow-hidden">
+    <div
+      className="padding-def padding-def-y space-y-16 h-fit w-full relative overflow-hidden"
+      id="class"
+    >
       <Background_img />
       <h1 className="font-bold text-4xl text-center">
         <span className="text-blue-500">What is Defferent About</span>

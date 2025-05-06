@@ -20,7 +20,7 @@ function Alumni() {
         </div>
         <div className="rounded-lg md:w-1/2 h-full overflow-hidden">
           <iframe
-            src="https://www.youtube.com/embed/sLRnGFVQVFY?autoplay=1&controls=1&mute=1&loop=1&playlist=sLRnGFVQVFY"
+            src="https://www.youtube.com/embed/54TXDdGp_ow?autoplay=1&controls=1&mute=1&loop=1&playlist=54TXDdGp_ow"
             width={"100%"}
             height={"100%"}
             allow="autoplay"

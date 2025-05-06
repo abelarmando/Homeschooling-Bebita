@@ -3,14 +3,14 @@
 @theme {
   --color-bg-secondary: #c8c4c4;
 
-  --animate-infinte-scroll: infinite-scroll 25s linear infinite;
+  --animate-infinte-scroll: infinite-scroll 10s linear infinite;
 
   @keyframes infinite-scroll {
     0% {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-85% - 20px));
+      transform: translateX(calc(-25% - 20px));
     }
   }
 }

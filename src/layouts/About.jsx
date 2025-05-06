@@ -4,7 +4,10 @@ import { programs } from "../constant";
 console.log(programs);
 function About() {
   return (
-    <div className="padding-def padding-def-y space-y-16  w-full relative overflow-hidden">
+    <div
+      className="padding-def padding-def-y space-y-16  w-full relative overflow-hidden"
+      id="about"
+    >
       <Background_img />
       <h1 className="font-bold text-4xl text-center">
         <span className="text-blue-500">What is Defferent About</span>
