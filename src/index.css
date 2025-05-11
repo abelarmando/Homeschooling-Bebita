@@ -28,3 +28,14 @@ body {
 .padding-def-y {
   @apply 2xl:py-[100px] py-[50px];
 }
+
+.text-judul {
+  @apply md:text-4xl text-[24px];
+}
+.text-isi {
+  @apply md:text-[18px] text-[16px];
+}
+
+.text-subjudul {
+  @apply md:text-2xl text-[20px];
+}

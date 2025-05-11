@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="bg-white md:rounded-b-lg fixed top-0 left-0 right-0 z-99 padding-def ">
       <div className="flex justify-between items-center w-full py-[10px] ">
-        <div className="md:w-[200px] md:h-[60px] w-[80px]">
+        <div className="md:h-[60px] max-md:w-[100px]">
           <img
             src="./images/Logo_homeschooling.png"
             alt=""

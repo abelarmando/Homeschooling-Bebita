@@ -6,7 +6,7 @@ function Review() {
   return (
     <div className="padding-def padding-def-y space-y-4 relative overflow-hidden">
       <Background_img />
-      <h1 className="text-center font-bold text-3xl">
+      <h1 className="text-center font-bold text-3xl text-judul">
         <span className="text-blue-500">Penilaian Alumni dan Orang Tua</span>
         <br />
         Bebita Homeschooling

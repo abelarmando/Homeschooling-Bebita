@@ -10,8 +10,8 @@ function Class() {
       id="class"
     >
       <Background_img />
-      <h1 className="font-bold text-4xl text-center">
-        <span className="text-blue-500">What is Defferent About</span>
+      <h1 className="font-bold text-4xl text-center text-judul">
+        <span className="text-blue-500">Program</span>
         <br />
         Bebita Homeschooling?
       </h1>

@@ -82,14 +82,12 @@ export const review_students = [
   },
   {
     nama: "Indriswari(Orang Tua Murid)",
-    review:
-      "Suka banget karena bisa belajar sesuai ritme sendiri. Semua materi disampaikan dengan cara yang menarik.",
+    review: "Memberikan perhatian khusus pada setiap anak.",
     img: "./images/students/GAMBAR_PENILAIAN_INDRI_RASWARI.png",
   },
   {
     nama: "Tri Handoko (Orang Tua Murid)",
-    review:
-      "Guru-gurunya suportif dan sering ngajak diskusi. Aku jadi lebih pede dan ngerti pelajaran yang dulu terasa sulit.",
+    review: "Memberikan dukungan penuh khususnya anak luar biasa",
     img: "./images/students/GAMBAR_PENILAIAN_TRI_HANDOKO.png",
   },
 ];

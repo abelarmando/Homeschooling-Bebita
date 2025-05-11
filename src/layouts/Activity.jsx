@@ -7,7 +7,7 @@ function Activity() {
   return (
     <div className="padding-def padding-def-y relative overflow-hidden">
       <Background_img />
-      <h1 className="text-center font-bold text-3xl">
+      <h1 className="text-center font-bold text-judul">
         Our Activities In <br /> Homeschooling Bebita
       </h1>
       <div className="flex flex-wrap items-center gap-4 justify-center">

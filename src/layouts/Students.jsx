@@ -15,7 +15,7 @@ function Students() {
       trigger: "#students",
       start: "center bottom",
       end: "bottom top",
-
+      // markers: true,
       onEnter: () => setStartCountUp(true),
       onLeave: () => setStartCountUp(false),
       onEnterBack: () => setStartCountUp(true),
@@ -25,11 +25,11 @@ function Students() {
 
   return (
     <div
-      className="padding-def padding-def-y space-y-16 h-fit w-full relative overflow-hidden "
+      className="padding-def padding-def-y space-y-16  w-full relative overflow-hidden min-h-[350px]"
       id="students"
     >
       <Background_img />
-      <h1 className="text-4xl font-bold text-center ">
+      <h1 className="text-4xl font-bold text-center text-judul">
         <span className="text-blue-500">Kontribusi Kami dalam</span>
         <br /> Pendidikan Indonesia
       </h1>
@@ -37,13 +37,13 @@ function Students() {
         {StartCountUp &&
           students.map((x) => (
             <div className="font-bold space-y-3">
-              <h1 className="text-center text-4xl">
+              <h1 className="text-center text-4xl text-judul">
                 {StartCountUp && (
                   <CountUp start={0} end={x.jumlah} duration={3} />
                 )}
                 +
               </h1>
-              <p className="text-xl">{x.deskripsi}</p>
+              <p className="text-xl text-center text-subjudul">{x.deskripsi}</p>
             </div>
           ))}
       </div>

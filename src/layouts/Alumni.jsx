@@ -5,14 +5,16 @@ function Alumni() {
   return (
     <div className="padding-def padding-def-y relative overflow-hidden space-y-4">
       <Background_img />
-      <h1 className=" text-3xl font-bold text-center ">
+      <h1 className=" text-3xl font-bold text-center text-judul">
         <span className="text-blue-500">Kata Alumni dan Orang Tua</span>
         <br /> Bebita Homeschooling
       </h1>
       <div className="md:flex bg-bg-secondary opacity-70 p-10 rounded-lg gap-10 md:h-[400px] items-center max-md:space-y-4">
-        <div className="md:w-1/2 space-y-4">
-          <h2 className="uppercase font-bold">judul/highlight</h2>
-          <p>
+        <div className="md:w-1/2 space-y-4 max-md:text-center">
+          <h2 className="uppercase font-bold text-subjudul">
+            Penilaian alumni
+          </h2>
+          <p className="text-isi">
             Bebita Homeschooling offers a flexible, interactive, and supportive
             learning environment, empowering every child to reach their full
             potential from the comfort of home.
