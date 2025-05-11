@@ -25,7 +25,7 @@ function Students() {
 
   return (
     <div
-      className="padding-def padding-def-y space-y-16  w-full relative overflow-hidden min-h-[350px]"
+      className="padding-def padding-def-y space-y-16  w-full relative overflow-hidden md:min-h-[350px] min-h-[570px] "
       id="students"
     >
       <Background_img />
