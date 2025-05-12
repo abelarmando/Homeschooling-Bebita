@@ -1,6 +1,6 @@
 function Card_Course({ title, text, img }) {
   return (
-    <div className="bg-bg-secondary opacity-80 rounded-lg w-[300px] p-5 space-y-3  relative h-[320px] hover:shadow-2xl hover:h-[400px] hover:w-[320px] transition-all duration-150 group">
+    <div className="bg-bg-secondary opacity-80 rounded-lg w-[300px] p-5 space-y-3  relative md:h-[350px] h-[320px]  hover:shadow-2xl hover:h-[400px] hover:w-[320px] transition-all duration-150 group">
       <h2 className="text-subjudul font-bold text-center w-[270px]  h-[60px] ">
         {title}
       </h2>

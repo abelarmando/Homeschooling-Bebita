@@ -22,7 +22,7 @@ body {
 }
 
 .padding-def {
-  @apply 2xl:px-[600px] px-[50px];
+  @apply min-[2000px]:px-[600px] 2xl:px-[300px] px-[50px];
 }
 
 .padding-def-y {
